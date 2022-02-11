@@ -11,9 +11,6 @@
   border-radius: 10px;
   margin: 1rem .5rem;
 }
-.my-about{
-  height: 40vh;
-}
 .my-contact{
   height: 60vh;
 }
@@ -21,8 +18,21 @@
   height: 20vh;
   background-color: #3a546d;
 }
+.my-line{
+  display: inline-block;
+  width: 10%;
+  height: 2px;
+}
+h2, h3, p{
+  text-transform: uppercase;
+}
+/* background color */
+.my-white{
+  background-color: white;
+}
 .my-green{
   background-color: #1abc9c;
+  color: white;
 }
 .my-red{
   background-color: #ba4b63;
