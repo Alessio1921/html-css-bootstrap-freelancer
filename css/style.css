@@ -22,8 +22,10 @@ header, .footer-bottom{
   border: 0;
 }
 .footer-top{
-  height: 20vh;
   background-color: #3a546d;
+}
+.footer-top p{
+  font-size: .9rem;
 }
 .footer-bottom{
   font-size: .7rem;
@@ -32,6 +34,12 @@ header, .footer-bottom{
   display: inline-block;
   width: 10%;
   height: 2px;
+}
+.social i{
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 8px;
+  width: 34px;
 }
 /* background color */
 .my-white{
@@ -43,4 +51,7 @@ header, .footer-bottom{
 }
 .my-black{
   background-color: #140f0f;
+}
+.my-green-txt{
+  color: #1abc9c;
 }
