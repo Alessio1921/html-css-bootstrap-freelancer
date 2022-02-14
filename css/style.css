@@ -1,7 +1,7 @@
 body{
   overflow-x: hidden;
 }
-header, footer{
+header, .footer-bottom{
   background-color: #2c3e50;
 }
 .container-img{
@@ -11,16 +11,22 @@ header, footer{
   width: 200px;
 }
 .my-card{
-  height: 30vh;
   border-radius: 10px;
   margin: 1rem .5rem;
 }
-.my-contact{
-  height: 60vh;
+.my-card img{
+  width: 100%;
+  border-radius:10px ;
 }
-.my-social{
+#contact input, #contact textarea{
+  border: 0;
+}
+.footer-top{
   height: 20vh;
   background-color: #3a546d;
+}
+.footer-bottom{
+  font-size: .7rem;
 }
 .my-line{
   display: inline-block;
@@ -35,21 +41,6 @@ header, footer{
   background-color: #1abc9c;
   color: white;
 }
-.my-red{
-  background-color: #ba4b63;
-}
-.my-light-blu{
-  background-color: #1ea4b6;
-}
 .my-black{
   background-color: #140f0f;
-}
-.my-blu{
-  background-color: #1c83c1;
-}
-.my-electric-blu{
-  background-color: #0e38b5;
-}
-.my-dark-ping{
-  background-color: #ccb2a3;
 }
